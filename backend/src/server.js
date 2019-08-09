@@ -4,7 +4,7 @@ const routes = require('./routes');
 
 const server = express();
 
-mongoose.connect('mongodb+srv://omministack:1234@cluster0-sd7kl.mongodb.net/omministrack8?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://omministack:1234@cluster0-sd7kl.mongodb.net/teste?retryWrites=true&w=majority', {
     useNewUrlParser: true}
 );
 
